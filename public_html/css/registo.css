@@ -1,0 +1,80 @@
+/* Reset básico */
+body, h1, h2, form, input, select, button, p, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Caixa de Registro */
+form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+form h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #004085;
+    text-align: center;
+}
+
+form label {
+    font-size: 0.9rem;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form select {
+    background-color: #f9f9f9;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #004085;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #002752;
+}
+
+/* Mensagem de erro */
+.error-message {
+    color: #dc3545;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 10px;
+}
